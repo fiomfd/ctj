@@ -992,7 +992,7 @@ $A=\sum_{j=1}^r\sigma_j\vec{u}_j\vec{v}_j^T.$
 
 右辺を行列 $A$ の特異値分解という. ここに $^T$ は転置を表す:
 
-$$\begin{bmatrix}1 \\ 2 \\ 3 \\ 4 \end{bmatrix}=\begin{bmatrix}1 & 2 & 3 & 4 \end{bmatrix}.$$
+$$\begin{bmatrix}1 \\ 2 \\ 3 \\ 4 \end{bmatrix}^T=\begin{bmatrix}1 & 2 & 3 & 4 \end{bmatrix}.$$
 
 さて, 特異値分解を与える有限和を途中で打ち切った次の行列を考える: 
 
@@ -4218,7 +4218,7 @@ version = "1.13.0+0"
 # ╟─b89b2541-4928-4086-830c-2a8d04d5da01
 # ╟─748100f1-caaa-4cef-92ed-3e3604ded2d2
 # ╟─38bc4005-c48e-4def-9e06-28164a5c02cb
-# ╠═b7f5b953-07cb-4857-8ca2-7d79b9d91a93
+# ╟─b7f5b953-07cb-4857-8ca2-7d79b9d91a93
 # ╟─5a1f0965-3bce-4119-8857-9abc085ff411
 # ╟─559c0598-6921-4778-8b47-f476c30e9961
 # ╟─ad07fbe6-26b4-4adc-afb8-d78170a96e0e
