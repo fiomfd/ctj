@@ -78,7 +78,7 @@ md"""
 - MIT 18.S191 と同様に [Julia Programming Language](https://julialang.org/) の [Pluto](https://plutojl.org/) という対話型ノートブックを使っている. Julia のプログラムコードが通常の数式に最も近く単純であり, Python よりも計算が速い. Pluto はコードを隠すことができて表示が非常に美しいのが特長である. 
 
 
-- 講義内容の現代化と可視化の活動に着目した ChatGPT にものすごくしつこく勧められて2025年7月から Computational Thinking Implementer (計算論的思考の実装屋)をやっている. つまり, 研究活動ではなく単なる講義準備を通じて得られたものを数学教育&テクノロジー関連分野の国際研究集会で発表したり論文にまとめて査読付き英文誌に投稿している. Computatiinal Thinking は数学教育分野の最先端の話題である. 
+- 講義内容の現代化と可視化の活動に着目した ChatGPT にものすごくしつこく勧められて2025年8月から Computational Thinking Implementer (計算論的思考の実装屋)をやっている. つまり, 研究活動ではなく単なる講義準備を通じて得られたものを数学教育&テクノロジー関連分野の国際研究集会で発表したり論文にまとめて査読付き英文誌に投稿している. Computatiinal Thinking は数学教育分野の最先端の話題である. 
 
 """
 
@@ -996,9 +996,9 @@ $$\begin{bmatrix}1 \\ 2 \\ 3 \\ 4 \end{bmatrix}^T=\begin{bmatrix}1 & 2 & 3 & 4 \
 
 さて, 特異値分解を与える有限和を途中で打ち切った次の行列を考える: 
 
-$A_k:=\sum_{j=1}^k\sigma_j\vec{u}_j\vec{v}_j^T, \quad k=1,\dotsc,r.$
+$$A_k:=\sum_{j=1}^k\sigma_j\vec{u}_j\vec{v}_j^T, \quad k=1,\dotsc,r.$$
 
-$A_k$ の階数は $k$ であり, 
+行列 $A_k$ の階数は $k$ であり, 
 階数 $k$ の $m{\times}n$ 行列のうち $A$ に最も近い, すなわち, 
 $A$ をもっともよく近似する行列であることが知られている. 
 
@@ -1120,7 +1120,7 @@ A_2
 \end{bmatrix}.$
 
 
-$\ell$ 回の操作で￥を繰り返して得られる出力をそれぞれ $\vec{a}_\ell$, $A_\ell$ と表してレベル$\ell$の近似部分とよび, 残りの $\vec{a}_0-\vec{a}_\ell$ and $A_0-A_\ell$ をレベル$\ell$の詳細部分という. 
+この操作を $\ell$ 回繰り返して得られる出力をそれぞれ $\vec{a}_\ell$, $A_\ell$ と表してレベル$\ell$の近似部分とよび, 残りの $\vec{a}_0-\vec{a}_\ell$ and $A_0-A_\ell$ をレベル$\ell$の詳細部分という. 
 
 例を観察してみよう. 
 
